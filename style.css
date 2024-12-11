@@ -101,9 +101,42 @@ header>.welcome>div>button:hover {
 
 .quote {
     background-color: #E5E7EB;
-    margin: -8px;
-    font-size: 36px;
+    margin: -8px;  
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.whom {
+    align-self: flex-end;
+    font-weight: 600;
+}
+
+.söz {
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.quote>.söz>p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
     font-style: italic;
-    font-weight: light;
+    font-size: 36px;
     color: #1F2937;
+    width: 600px;
+}
+
+.signing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-flow: row nowrap;
 }
