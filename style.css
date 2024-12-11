@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    background-color: #1F2937;
+    margin: -8px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 80px;
+    padding: 20px 200px 50px 200px;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+
+header>.welcome>div>h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900px;
+}
+
+header>.welcome>div>p,
+header>.header1>.links>a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+header>.welcome>div>button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+header>.welcome>div>button:hover {
+    background-color: darkblue;
+    color: blue;
+}
+
+.welcome {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+}
+
+.welcome>div {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.welcome>div>p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.information {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 100px auto;
+}
+
+.infohead {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.güresler {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 25px;
+}
+
+.güres>img {
+    border-radius: 5%;
+    border: solid 5px #3882F6;
+}
+
+
+.güresler>.güres>div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    margin: -8px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
