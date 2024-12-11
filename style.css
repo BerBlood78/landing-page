@@ -134,9 +134,42 @@ header>.welcome>div>button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 300px;
 }
 
 .box {
     display: flex;
-    flex-flow: row nowrap;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    height: 125px;
+    width: 1000px;
+}
+
+.signing>.box>button {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5%;
+    cursor: pointer;
+    outline: none;
+    border: solid white;
+    align-self: center;
+}
+
+.signing>.box>button:hover {
+    background-color: darkblue;
+    color: blue;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -8px;
+    padding: 30px;
+    background-color: #1F2937;
+    color: lightgrey;
 }
